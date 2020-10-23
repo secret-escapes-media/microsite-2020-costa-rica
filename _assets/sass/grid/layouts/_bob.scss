@@ -12,6 +12,8 @@
     &--swap { flex-direction: row-reverse; }
   }
 
+  & + & { padding-top: $s8; }
+
   // gutter sizes
   $mobile-gutter:  $s2;
   $desktop-gutter: $s4;
@@ -24,6 +26,11 @@
     padding-top: $mobile-gutter;
     padding-left: $mobile-gutter;
   }
+  & > &__img2,
+  & > &__text2 {
+    padding-top: $mobile-gutter;
+    padding-left: $mobile-gutter;
+  }
   @include bp($bp) {
     margin-top: -$desktop-gutter;
     margin-left: -$desktop-gutter;
@@ -32,10 +39,23 @@
       padding-top: $desktop-gutter;
       padding-left: $desktop-gutter;
     }
+    & > &__img2,
+    & > &__text2 {
+      padding-top: $desktop-gutter;
+      padding-left: $desktop-gutter*2.2;
+    }
   }
 
   // element styles
   &__text,
+  &__img {
+    width: 100%;
+    max-width: $lg;
+    @include bp($bp) {
+      width: 60%;
+      max-width: none;
+    }
+  }
   &__img {
     width: 100%;
     max-width: $lg;
@@ -51,5 +71,30 @@
       @include bp($bp){ text-align: left; }
     }
   }
+  // element styles
+  &__text2,
+  &__img2 {
+    width: 100%;
+    max-width: $lg;
+    @include bp($bp) {
+      width: 40%;
+      max-width: none;
+    }
+  }
+  &__img2 {
 
+    width: 100%;
+    max-width: $lg;
+    @include bp($bp) {
+      width: 40%;
+      max-width: none;
+    }
+  }
+  &__text2 {
+    @include bp($bp) { width: 55%; }
+    &--center {
+      text-align: center;
+      @include bp($bp){ text-align: left; }
+    }
+  }
 }

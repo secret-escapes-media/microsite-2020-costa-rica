@@ -2,8 +2,8 @@
 
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
-$nav-width-bp:       740px;
-$nav-color:          $white;
+$nav-width-bp:       640px;
+$nav-color:          $black;
 
 
 // global site nav height
@@ -17,8 +17,7 @@ $nav-color:          $white;
 }
 
 .site-nav {
-  position: relative;
-  background-color: rgba($nav-color,.93);
+  background-color: rgba($nav-color,.8);
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -69,14 +68,14 @@ $nav-color:          $white;
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
       min-width: $site-nav-height-sm;
-      @include bp($md){ min-width: $site-nav-height/4; }
+      @include bp($md){ min-width: $site-nav-height; }
       @include bp($nav-width-bp){ display: none; }
     }
   }
   &__item {
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($bv-green,1);
+    border-right: 1px solid rgba($white,.15);
     &:last-child { border-right: 0; }
   }
   &__link {
@@ -86,16 +85,16 @@ $nav-color:          $white;
     justify-content: center;
     padding-left: $s4;
     padding-right: $s4;
-    font-family: $font-core;
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: .2em;
+    font-family: $sans;
+    font-weight: 600;
+    font-size: $s-1;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    color: $bv-green;
+    color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { color: $bv-green-light; background-color: rgba($nav-color,1); }
-    .no-touch &:hover { color: $bv-green-light; background-color: rgba($nav-color,1); }
+    &.is-current      { background-color: rgba($nav-color,.66); }
+    .no-touch &:hover { background-color: rgba($nav-color,1); }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;
