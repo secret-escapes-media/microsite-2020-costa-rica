@@ -20,6 +20,10 @@
   &--green { border: $bv-green 1px solid; color: $bv-green;
     &:hover { background-color: $bv-green-dark; color: $white;}
   }
+  &--condor { background-color: $c-orange;
+    border-radius: 3px;  background-image: linear-gradient(45deg, $c-darkorange, $c-lightorange);
+    font-size: $s0; font-weight: 700;
+  }
   &--outline {
     color: inherit;
     &:before {
