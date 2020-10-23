@@ -3,6 +3,7 @@ var path         = require('path');
 var del          = require('del');
 var cp           = require('child_process');
 var browserSync  = require('browser-sync');
+var watch        = require('gulp-watch');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var autoprefix   = require('gulp-autoprefixer');
@@ -26,7 +27,7 @@ function browserSyncServe() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/de/costa-rica': '_site/'
+        '/de/2020/costa-rica': '_site/'
       }
     }
   });
@@ -84,14 +85,14 @@ function buildJsMain(cb) {
 
     // components
     './_assets/js/_components/standard.js',
-    './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
     './_assets/js/_components/modal-nav.js',
     // './_assets/js/_components/sticky-nav.js',
-    //'./_assets/js/_components/form/functions.js',
-    //'./_assets/js/_components/form/validation.js',
-    //'./_assets/js/_components/competition.js',
-    //'./_assets/js/_components/simple-form.js',
+    './_assets/js/_components/form/functions.js',
+    './_assets/js/_components/form/validation.js',
+    './_assets/js/_components/competition.js',
+    './_assets/js/_components/offer-sheet.js',
+    './_assets/js/_components/offer-countdown.js',
 
     // custom js for project
     './_assets/js/main.js',
