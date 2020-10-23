@@ -7,7 +7,7 @@
     {% elsif layout.banner.content %}
       {{layout.banner.content | liquify}}
     {% else %}
-      <div class="container container--no-padding text--center">
+      <div class="container container--no-padding text--left">
         {% if page.banner.title-sup %}<h2 class="h--sub"><span class="bg--green" style="{{page.banner.padding}}">{{page.banner.title-sup}}</span></h2>{% endif %}
         <h1 class="h--banner"><span class="bg--green" style="{{page.banner.padding}}">{% if page.banner.title %}{{page.banner.title}}{% endif %}</h1>
         {% if page.banner.title-sub %}<h2 class="h--sub"><span class="bg--green" style="{{page.banner.padding}}">{{page.banner.title-sub}}</span></h2>{% endif %}
