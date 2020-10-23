@@ -22,7 +22,10 @@ layout: page
   <div class="harvey__text text--xxl boxpad--xl ">
     <h2 class="h--md  text--light text--green">{{section.title}}</h2>
     <p>{{section.description}}</p>
-
+{% if section.cta %}
+<div class="space--md"></div>
+{{section.cta}}
+{% endif %}
   </div>
 </div>
 

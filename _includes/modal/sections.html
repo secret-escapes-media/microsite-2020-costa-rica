@@ -13,24 +13,31 @@ will also load in normal modals that appear in /data/modals.yml
     <div class="modal modal--standard is-closed" data-modal-id="{{section.id}}" >
       <div class="js-close-modal modal__close"></div>
       {% if section.gallery | where: 'gallery', 'true' %}
-      <!--    <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
-      <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>-->
-      <div class="">  <video style="width:100%;" id="video-{{section.id}}"  poster=""  controls >
+
+      <div class="">
+        <video style="width:100%;" id="video-{{section.id}}"  poster=""  controls >
         <source src="{{site.img}}/pages/testimonials/video-{{section.id}}.mp4" type="video/mp4"></video>
-        </div>
-
-        {% else if page.intro-video %}
-        <!--    <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
-        <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>-->
-
-        <div class="">  <video style="width:100%;" id="video-intro"  poster=""  controls >
-          <source src="http://www.channelrent.tv/download/touristiknews-costarica-news1410-neu.mp4" type="video/mp4"></video>
-          </div>
-          {% endif %}
-        </div>
-
-        {% endfor %}
-
-
       </div>
-    </div>
+
+        {% else if section.youtube == 'true'  %}
+        <div class="text--white" id="video-{{section.id}}">{{section.modal}}</div>
+        <!-- <div class="bv-iframe-ratio" id="video-wellness">
+          <iframe class=""  src="https://www.youtube.com/embed/fX8VzYADRdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+
+      {% else if section.youtube == 'false' %}
+      <div class="text--green" id="video-{{section.id}}">{{section.modal}}</div>
+  <!--
+      <div class="" id="video-safety">
+        <video style="width:100%;"  poster=""  controls >
+          <source src="http://www.channelrent.tv/download/touristiknews-costarica-news1410-neu.mp4" type="video/mp4"></video>
+      </div>-->
+        {% endif %}
+      </div>
+
+
+    {% endfor %}
+
+
+        </div>
+      </div>

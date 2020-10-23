@@ -19,6 +19,19 @@
   title: Schauspieler
   description: "Ein gewisses Fernweh begleitet mich schon mein ganzes Leben. Zurzeit ist die Sehnsucht größer denn je. Ich bin in Costa Rica geboren und war nach meiner Geburt nie wieder dort. Es ist ein großer Traum von mir das Land, die Kultur und die Menschen dort endlich besser kennenzulernen."
 
+- id: safety
+  youtube: true
+  modal: >
+    <div class="" id="video-safety">
+      <video style="width:100%;"  poster=""  controls >
+        <source src="http://www.channelrent.tv/download/touristiknews-costarica-news1410-neu.mp4" type="video/mp4"></video>
+    </div>
+  gallery: false
 
-- id: intro
+- id: wellness
+  youtube: false
+  modal: >
+    <div class="bv-iframe-ratio" id="video-wellness">
+      <iframe class=""  src="https://www.youtube.com/embed/fX8VzYADRdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   gallery: false

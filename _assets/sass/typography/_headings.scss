@@ -49,7 +49,7 @@
   font-family: $font-title-01;
   text-transform: uppercase;
   color: $white;
-  line-height: 1.75;
+  line-height: 1.75!important;
   letter-spacing: 1px;
   font-size: $s6;
   @include bp($md){ font-size: $s8;
