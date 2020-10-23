@@ -1,32 +1,31 @@
 ---
-layout: default
+layout: page
 id: overview
 nav: true
 nav-order: 1
-title: Die grüne Lunge des Planeten
+title: Nachhaltiges Sehnsuchtsziel
 nav-title: Übersicht
 
 banner:
   title: Costa Rica
-  title-sub: Naturparadies zwischen zwei Weltmeeren
+  title-sub: Nachhaltiges Sehnsuchtsziel
   title-sub-size: sub-title--sm
   bg-pos: "background-position: 60% center;"
+  badge: true
 
 intro-title: Headline
-intro: "'Pura vida', das pure Leben, ist das Motto des zentral&shy;amerikanischen Staates. Zum einen bezieht sich das auf Costa Ricas unnach&shy;ahmliche Arten&shy;viel&shy;falt, aber auch auf ihre Natur&shy;kulissen, die mit Vulkanen, einer hohen Dichte an National&shy;parks und Traum&shy;stränden gespickt sind. Werden Sie zum Abenteurer und machen Sie Costa Rica zu einem neuen Reise-Favoriten."
+intro: "Als Natur- und Outdoorparadies mit einmaliger Biodiversität auf kleinster Fläche bietet Costa Rica große Vielfalt und Abenteuer, Wellness, Traumstrände an zwei Weltmeeren, sowie ein einzigartiges Lebensgefühl, die 'pura vida'. Lassen Sie sich für 2021 inspirieren und reisen Sie mit Condor Ihrem Zentralamerika-Abenteuer entgegen."
 
 
 ---
 
 <div class=" vpad--xxl bg--green-dark text--white" >
   <div class="container">
-    <div class="width width--xl text--justify text--normal text--xxl bv-mob-left" >
+    <div class="width width--xl text--justify text--normal p p--xxxl bv-mob-left" >
       <p>{{page.intro}}</p>
     </div>
   </div>
 </div>
-
-
 
 
 <!---- Regions ----->
@@ -42,10 +41,10 @@ intro: "'Pura vida', das pure Leben, ist das Motto des zentral&shy;amerikanische
 
   <div class="bob  {% cycle '', 'bob--swap' %} ">
     <div class="bob__img">
-      <a href="{{site.baseurl}}{{destination.url}}"  class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{destination.id}}/hero.jpg');" ></a>
+      <a href="{{site.baseurl}}{{destination.url}}"  class="img img--4-3" style="background-image: url('{{site.img}}/pages/{{destination.id}}/hero.jpg');" ></a>
     </div>
     <div class="bob__text">
-      <h3 class="sub-title sub-title--lg text--green">{{destination.title}}</h3>
+      <h3 class=" h--md text--green">{{destination.title}}</h3>
       <p class="text--md">{{destination.intro}}</p>
       <div class="space--lg"></div>
       <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--md btn--green" >Jetzt entdecken</a>
@@ -55,3 +54,4 @@ intro: "'Pura vida', das pure Leben, ist das Motto des zentral&shy;amerikanische
   {% endfor %}
 
 </div>
+{% include page/safety.html %}

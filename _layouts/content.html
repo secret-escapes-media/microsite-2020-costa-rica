@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 ---
 
-
-
-<div class=" vpad--xxl bg--green-dark text--white" >
+<div class=" vpad--xxl bg--green-dark text--white  " >
   <div class="container">
-    <div class="width width--xl text--justify text--normal text--xxl bv-mob-left" >
+    <div class="width width--xl text--justifytext--normal p p--xxl bv-mob-left" >
       <p>{{page.intro}}</p>
     </div>
   </div>
@@ -18,11 +16,11 @@ layout: default
 
 <div id="{{section.id}}" class="harvey{% cycle ' harvey--swap', '' %}">
 
-  <div class="harvey__img " style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');">
+  <div class="harvey__img" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{section.id}}.jpg');">
     <a href="{{site.baseurl}}{{page.url}}" class="harvey__link"></a>
   </div>
   <div class="harvey__text text--xxl boxpad--xl ">
-    <h2 class="title title--md bv-divider text--light text--green">{{section.title}}</h2>
+    <h2 class="h--md  text--light text--green">{{section.title}}</h2>
     <p>{{section.description}}</p>
 
   </div>

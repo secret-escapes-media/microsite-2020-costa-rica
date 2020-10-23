@@ -1,0 +1,48 @@
+---
+layout: page
+
+---
+
+
+
+
+<div class=" vpad--xl bg--green-dark" >
+  <div class="container text--center">
+    <div class="width width--xl text--white text--justify text--normal p p--xxl bv-mob-left" >
+      <p>{{page.intro}}</p>
+    </div>
+ <div class="space--lg"></div>
+  </div>
+  </div>
+
+ <div class="container vpad--xxl " style="">
+
+<div class="space--lg"></div>
+
+ <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters-xs" >
+
+   {% for video in site.data.sections %}
+
+       {% if video.gallery %}
+
+     <div class="bob  {% cycle '', 'bob--swap' %}">
+       <div class="bob__img2">
+         <a id="tracking-poi-{{video.id}}"  class="js-open-modal bv-shadow img img--4-3 img--lg-1-1" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg'); " ></a>
+       </div>
+       <div class="bob__text2">
+           <h2 class="h--md  text--light text--green"> {{video.credit}}</h2>
+           <div class="text--bold text--upper text--md "> {{video.title}}</div>
+         <div class="space--xs"></div>
+         <div class="text--italic p p--lg">&#8222;{{video.description}}&#8220;</div>
+         <div class="space--lg"></div>
+
+       </div>
+     </div>
+     {% endif %}
+   {% endfor %}
+<div class="space--md"></div>
+</div>
+</div>
+
+<div class="space--xl"></div>
+</div>

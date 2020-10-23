@@ -1,32 +1,24 @@
 - id: one
-  title: Section one
-  nav-title: One
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est!
-  link: "#section-link"
+  gallery: true
+  group: gallery
+  credit: "Hannes Jaenicke"
+  title: Schauspieler und Umweltaktivist
+  description: "Ich war 2009 zum ersten Mal für Dreharbeiten in Costa Rica. Land, Leute, die atemberaubende  Natur im Urwald und an den Küsten haben mich damals so umgehauen, dass ich mittlerweile nicht mehr genau weiss, wie oft ich schon dort war. Nach rund 35 Jahren Weltenbummeln und Doku-Drehs in jedem Winkel der Erde kann ich nur sagen: Für mich ist Costa Rica nicht nur das schönste Land der Welt, sondern was Umweltschutz, Nachhaltigkeit , Biodiversität und Öko-Tourismus betrifft, weltweit führend. Dass man dort auch noch menschenleere Strände, die schönsten Surf-Spots und besten Wellen findet ist das Sahnehäubchen obendrauf. Pura Vida! Als deutscher Reisender wünschte ich mir, hierzulande würden sich Menschen so selbstverständlich und vorbildlich an Corona-Vorschriften und Hygiene-Massnahmen halten wie es die Ticos (Costa-Ricaner) tun. Ich habe mich während meiner Reise dort im Oktober 2020 sicherer gefühlt als irgendwo in Europa. Insofern ist Costa Rica, auch wegen seines ausgezeichneten Gesundheitssystems, ein idealer 'Flucht-Ort' in Zeiten einer globalen Pandemie."
 
-  pois:
-    items:
+- id: two
+  gallery: true
+  group: gallery
+  credit: "Daniel Roesner"
+  title: Schauspieler
+  description: "Costa Rica ist mein absolutes Traumreiseziel in den letzten Jahren. Costa Rica bietet mir die Möglichkeit all meine Aktivsportarten in atemberaubend schöner Natur auszuüben und mit Menschen zusammen zu sein, die 'Pura Vida' als Grundeinstellung verinnerlicht haben. Durch meine nachhaltige Surfbrettfirma in Costa Rica kann ich meine Leidenschaft fürs Surfen mit Urlaub und Business kombinieren."
 
-      - id: one
-        title: One First POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-        link: "#poi-link"
-        image-credit: "<a href=\"#photo-link\">Photo</a> by username / <a rel=\"nofollow\" href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY</a>"
+- id: three
+  gallery: true
+  group: gallery
+  credit: "Ruby O. Fee"
+  title: Schauspieler
+  description: "Ein gewisses Fernweh begleitet mich schon mein ganzes Leben. Zurzeit ist die Sehnsucht größer denn je. Ich bin in Costa Rica geboren und war nach meiner Geburt nie wieder dort. Es ist ein großer Traum von mir das Land, die Kultur und die Menschen dort endlich besser kennenzulernen."
 
-      - id: two
-        title: One Second POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-        link: "#poi-link"
-        image-credit: "<a href=\"#photo-link\">Photo</a> by username / <a rel=\"nofollow\" href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY</a>"
 
-      - id: three
-        title: One Third POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-        link: "#poi-link"
-        image-credit: "<a href=\"#photo-link\">Photo</a> by username / <a rel=\"nofollow\" href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY</a>"
-
-      - id: four
-        title: One Fourth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-        link: "#poi-link"
-        image-credit: "<a href=\"#photo-link\">Photo</a> by username / <a rel=\"nofollow\" href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY</a>"
+- id: intro
+  gallery: false

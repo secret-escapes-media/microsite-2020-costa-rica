@@ -1,17 +1,25 @@
 <div class="banner">
-  <div class="site-header__offset"></div>
-  <div class="banner__bg bv-parallax" style="background-image: url('{{site.img}}/content/{{page.id}}/hero.jpg'); {{page.banner.bg-pos}}"></div>
+  <div class="site-nav__offset"></div>
+  <div class="banner__bg bv-parallax" style="background-image: url('{{site.img}}/pages/{{page.id}}/hero.jpg'); {{page.banner.bg-pos}}"></div>
   <div class="banner__wrap">
     {% if page.banner.content %}
       {{page.banner.content | liquify}}
     {% elsif layout.banner.content %}
       {{layout.banner.content | liquify}}
     {% else %}
-      <div class="container container--no-padding text--left">
-        {% if page.banner.title-sup %}<h2 class="sub-title {{page.banner.title-sup-size}}"><span class="bg--green" style="padding:10px 10px 0px 10px;">{{page.banner.title-sup}}</span></h2>{% endif %}
-        <h1 class="banner-title"><span class="bg--green" style="padding:12px 12px 0px 12px;">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</span></h1>
-        {% if page.banner.title-sub %}<h2 class="sub-title {{page.banner.title-sub-size}}" ><span class="bg--green" style="padding:10px 10px 5px 10px;">{{page.banner.title-sub}}</span></h2>{% endif %}
+      <div class="container container--no-padding text--center">
+        {% if page.banner.title-sup %}<h2 class="h--sub"><span class="bg--green" style="padding:8px ;">{{page.banner.title-sup}}</span></h2>{% endif %}
+        <h1 class="h--banner"><span class="bg--green" style="padding:8px;">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+        {% if page.banner.title-sub %}<h2 class="h--sub"><span class="bg--green" style="padding:8px ;">{{page.banner.title-sub}}</span></h2>{% endif %}
       </div>
+    {% endif %}
+    {% if page.banner.badge %}
+    <a href="{{site.baseurl}}{{destination.url}}/testimonials/">
+    <div class="bv-badge">
+        <div class="p p--xl" style="">Promis zu<br></div>
+        <div class="space--xxs"></div>
+        <div class="h h--xs text--bolder text--upper">Costa Rica</div>
+      </div></a>
     {% endif %}
   </div>
   <div class="banner__nav">
