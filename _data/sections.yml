@@ -16,8 +16,23 @@
   gallery: true
   group: gallery
   credit: "Ruby O. Fee"
-  title: Schauspieler
+  title: Schauspielerin
   description: "Ein gewisses Fernweh begleitet mich schon mein ganzes Leben. Zurzeit ist die Sehnsucht größer denn je. Ich bin in Costa Rica geboren und war nach meiner Geburt nie wieder dort. Es ist ein großer Traum von mir das Land, die Kultur und die Menschen dort endlich besser kennenzulernen."
+
+- id: four
+  gallery: true
+  group: gallery
+  credit: "Ursula Karven"
+  title: Schauspielerin
+  description: "Costa Rica wurde meinen beiden Söhnen und mir 2012/13 - nach einem langen Winter in Berlin - von einem Reisebüro als Reiseziel für die Osterferien vorgeschlagen. Costa Rica könne alle Wünsche nach Yoga, veganem Essen und modernen Surf-Träumen erfüllen. Als wir dann in Santa Teresa in einem kleinen Boutique Hotel ankamen, trauten wir unseren Augen nicht! Wir waren tatsächlich im Paradies gelandet - mit unfassbar gutem, gesunden Essen, von den Augen abgelesen Massagewünschen, fantastischen Yoga-Lehrern aus aller Welt und einem unermüdlichen Wellengang, der perfekt für Surfer ist. All das hat gerade in Santa Teresa Weltniveau - und alles basierend auf nachhaltigen Grundsätzen, damit ist Costa Rica für mich nicht nur das schönste Land, sondern was Nachhaltigkeit, Biodiversität, Umweltschutz und Öko-Tourismus betrifft ein Vorbild für die gesamte Welt! "
+
+- id: five
+  gallery: true
+  group: gallery
+  credit: "Melanie Winiger"
+  title: Schauspielerin
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!"
+
 
 - id: safety
   youtube: true
