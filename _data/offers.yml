@@ -1,42 +1,31 @@
+- title: Eco-Hideaway im Zauber Costa Ricas
+  location: Andaz Costa Rica Resort at Peninsula Papagayo, Guanacaste, Costa Rica
+  description: 5*-Hideaway an den Traumstränden der Culebra Bay – inkl. Frühstück & Extra
+  price: 218
+  price-description: pro Unterkunft pro Nacht
+  saved: 39
+  expires: 2019/10/29
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/85683/f605240c_374a_4a79_b2e3_7671745a9ea4.jpg?auto=format,compress
+  link: http://bit.ly/35Ql2s3
+
+- title: Rundreise zu den Tropenschätzen Costa&nbsp;Ricas
+  location: San José - Vulkan Arenal Nationalpark – Monteverde – Tamarindo, Costa Rica
+  description: Pura Vida – Dschungel & Strand inkl. Flügen, Frühstück, Transfers, Ausflügen & Bootsafari
+  price: 1.799
+  price-description: pro Person basierend auf 2 Personen für 11 Nächte
+  saved: 23
+  flight-tag: true
+  expires: 2019/11/04
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/99795/70d0c057_0152_442c_83a7_acb276e79bc3.jpg?auto=format,compress
+  link: http://bit.ly/2N2nGT7
 
 - title: Costa Rica mit dem Mietwagen entdecken
   location: San José, Tortuguero Nationalpark, Arenal, Monteverde, Rincon de la Vieja und Tamarindo, Costa Rica
   description: Die faszinierende Natur Costa Ricas entdecken inklusive Frühstück, Mietwagen, Transfers, Ausflügen sowie Hin-und Rückflug
-  price: 2.159
+  price: 2.409
   price-description: pro Person basierend auf 2 Personen für 14 Nächte
   saved: 23
-  tag: config-flights
+  config-tag: true
   expires: 2019/11/04
   image: https://travelbird-images.imgix.net/cb/4f/cb4f1e23132cf6348fb5deb06d55fc05?auto=compress%2Cformat&crop=faces%2Cedges%2Ccenter&dpr=2&fit=crop&h=700&w=1050
   link: http://bit.ly/2J5Ryww
-
-- title: "Villenexotik an Costa Ricas Westküste"
-  location: "Three Sixty Boutique Hotel, Ojochal, Costa Rica"
-  description: "Villen mit Blick auf den Pazifik & umgeben von farbenprächtiger Natur – inkl. Frühstück"
-  price: 298
-  price-description: pro Villa pro Nacht
-  saved: 30
-  expires: 2019/11/12
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/68109/66183cb7_0ece_456a_a2fd_cfb73f03a290.jpg?auto=format,compress
-  link: http://bit.ly/2JueYff
-
-- title: Am roten Teppich von Costa Rica
-  location: Planet Hollywood Beach Resort Costa Rica, Culebra, Costa Rica
-  description: 5*-Erholung in Costa Rica – inkl. All-inclusive, Hydrotherapie-Behandlung & Extras
-  price: 235
-  price-description: pro Suite pro Nacht
-  saved: 48
-  expires: 2019/11/18
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/93553/cfa65bbc_b1ad_494b_92d9_db7443e03ac7.jpg?auto=format,compress
-  link: http://bit.ly/2JOWGWl
-
-- title: Unter der Sonne Costa Ricas
-  location: San José, Arenal, Nicoya
-  description: Von San José an den Strand Nicoyas – inkl. Flügen, Mietwagen, Transfers, Frühstück & 1x Rafting
-  price: 1899
-  price-description: pro Person basierend auf 2 Personen für 10 Nächte
-  saved: 20
-  tag: flights
-  expires: 2019/11/18
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/104485/0b6194ad_49cc_40e7_8920_a16264eaf2f0.jpg?auto=format,compress
-  link: http://bit.ly/2PLrJpU

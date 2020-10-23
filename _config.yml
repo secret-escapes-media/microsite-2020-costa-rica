@@ -1,21 +1,19 @@
 # Site settings
 title: Costa Rica
-locale: de
-partner:
-  name: Client Name
+client:
+  name: Die grüne Lunge des Planeten
   link: "https://www.visitcostarica.com/de/costa-rica"
-
+core-se-link: https://www.secretescapes.de/aktuelle-angebote
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
+  'Pura vida', das pure Leben, ist das Motto des zentralamerikanischen Staates. Zum einen bezieht sich das auf Costa Ricas unnahmahmliche Artenvielfalt, aber auch auf ihre Naturkulissen, die mit Vulkanen, einer hohen Dichte an Nationalparks und Traumstränden gespickt sind.
 
 # file paths
-url:     "https://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/2020/costa-rica" # the subpath of your site, e.g. /blog/
-img:     "/de/2020/costa-rica/_assets/img"
-css:     "/de/2020/costa-rica/_assets/css"
-js:      "/de/2020/costa-rica/_assets/js"
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/costa-rica" # the subpath of your site, e.g. /blog/
+img:     "/de/costa-rica/_assets/img"
+css:     "/de/costa-rica/_assets/css"
+js:      "/de/costa-rica/_assets/js"
+
 
 # Build settings
 markdown: kramdown

@@ -6,11 +6,6 @@
   &--dark  { background-color: $grey-dark; }
   &--green  { background-color: $bv-green; }
   &--green-dark  { background-color: $bv-green-dark; }
-  &--c-grey { background-color: $c-grey; }
-  &--f-blue { background-color: $f-blue; }
-  &--f-sand { background-color: $f-sand; }
-  &--f-red { background-color: $f-red; }
-  &--f-lightblue { background-color: $f-lightblue; }
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;
