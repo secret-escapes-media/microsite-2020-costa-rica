@@ -139,3 +139,26 @@
 .bv-modal-thumbn:hover{
   background-size: 155%;
 }
+
+
+/* ==========================================================================
+   Testimonal page banner
+   ========================================================================== */
+
+// special page banner to ensure image text stays visible at smaller viewports
+
+.testimonal-banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: $site-nav-height-sm;
+  z-index: $z-content-upper;
+  background-image: url('../img/pages/testimonials/hero-content.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include bp($md){
+    bottom: $site-nav-height;
+  }
+}

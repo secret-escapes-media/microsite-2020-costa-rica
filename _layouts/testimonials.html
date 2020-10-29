@@ -1,20 +1,26 @@
 ---
-layout: page
-
+layout: default
 ---
 
+{% include nav/header.html %}
 
+<div class="banner">
+  <div class="banner__bg" style="background-image: url('{{site.img}}/pages/{{page.id}}/hero-bg.jpg');"></div>
+  <div class="testimonal-banner-content"></div>
+  <div class="banner__nav">
+    {% include nav/site.html %}
+  </div>
+</div>
 
-
-<div class=" vpad--xl bg--green-dark" >
+<div class="vpad--xl bg--green-dark">
   <div class="container text--center">
-    <div class="width width--xl text--white text--justify text--normal p p--xxl bv-mob-left" >
+    <div class="width width--xl text--white text--justify text--normal p p--xxl bv-mob-left">
       <p>{{page.intro}}</p>
       <div class="space--sm text--center">
         <a id="tracking-video-overview-intro" class="js-open-modal btn btn--green" data-open-modal="overview-intro">Video ansehen</a>
       </div>
     </div>
- <div class="space--lg"></div>
+    <div class="space--lg"></div>
   </div>
 </div>
 
@@ -46,3 +52,5 @@ layout: page
 </div>
 
 <div class="space--xl"></div>
+
+{% include nav/footer.html %}
