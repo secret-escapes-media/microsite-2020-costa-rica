@@ -10,7 +10,7 @@
   group: gallery
   credit: "Daniel Roesner"
   title: Schauspieler
-  description: "Costa Rica ist mein absolutes Traumreiseziel in den letzten Jahren. Costa Rica bietet mir die Möglichkeit all meine Aktivsportarten in atemberaubend schöner Natur auszuüben und mit Menschen zusammen zu sein, die 'Pura Vida' als Grundeinstellung verinnerlicht haben. Durch meine nachhaltige Surfbrettfirma in Costa Rica kann ich meine Leidenschaft fürs Surfen mit Urlaub und Business kombinieren."
+  description: "Costa Rica ist mein absolutes Traumreiseziel in den letzten Jahren. Costa Rica bietet mir die Möglichkeit all meine Aktivsportarten in atemberaubend schöner Natur auszuüben und mit Menschen zusammen zu sein, die 'Pura Vida' als Grundeinstellung verinnerlicht haben. Durch meine nachhaltige Surfbrettfirma in Costa Rica kann ich meine Leidenschaft fürs Surfen mit Urlaub und Business kombinieren. Durch strenge Hygienekonzepte und Sicherheitsvorschriften habe ich mich während meiner Reise im September sehr sicher gefühlt"
 
 - id: three
   gallery: true
@@ -33,6 +33,13 @@
   title: Schauspielerin
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!"
 
+- id: overview-intro
+  modal: >
+    <div id="video-overview-intro">
+      <video style="width:100%;" controls>
+        <source src="http://www.channelrent.tv/download/costarica-promis-03.mp4" type="video/mp4">
+      </video>
+    </div>
 
 - id: safety
   youtube: true
