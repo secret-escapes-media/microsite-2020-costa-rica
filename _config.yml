@@ -16,6 +16,7 @@ baseurl: "/de/2020/costa-rica" # the subpath of your site, e.g. /blog/
 img:     "/de/2020/costa-rica/_assets/img"
 css:     "/de/2020/costa-rica/_assets/css"
 js:      "/de/2020/costa-rica/_assets/js"
+audio:   "/de/2020/costa-rica/_assets/audio"
 
 # Build settings
 markdown: kramdown

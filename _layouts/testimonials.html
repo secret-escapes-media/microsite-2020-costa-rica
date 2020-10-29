@@ -16,36 +16,33 @@ layout: page
     </div>
  <div class="space--lg"></div>
   </div>
-  </div>
-
- <div class="container vpad--xxl " style="">
-
-<div class="space--lg"></div>
-
- <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters-xs" >
-
-   {% for video in site.data.sections %}
-
-       {% if video.gallery %}
-
-     <div class="bob  {% cycle 'bob--swap', '' %}">
-       <div class="bob__img2">
-         <a id="tracking-poi-{{video.id}}"  class="js-open-modal bv-shadow img img--4-3 img--lg-1-1" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg'); " ></a>
-       </div>
-       <div class="bob__text2">
-           <h2 class="h--md  text--light text--green"> {{video.credit}}</h2>
-           <div class="text--bold text--upper text--md "> {{video.title}}</div>
-         <div class="space--xs"></div>
-         <div class="text--italic p p--lg">&#8222;{{video.description}}&#8220;</div>
-         <div class="space--lg"></div>
-
-       </div>
-     </div>
-     {% endif %}
-   {% endfor %}
-<div class="space--md"></div>
 </div>
+
+<div class="container vpad--xxl">
+  <div class="space--lg"></div>
+  {% for video in site.data.sections %}
+    {% if video.gallery %}
+      <div class="bob {% cycle 'bob--swap', '' %}">
+        <div class="bob__img2">
+          <a id="tracking-poi-{{video.id}}" class="js-open-modal bv-shadow img img--4-3 img--lg-1-1" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg');"></a>
+        </div>
+        <div class="bob__text2">
+          <h2 class="h--md text--light text--green">{{video.credit}}</h2>
+          <div class="text--bold text--upper text--md">{{video.title}}</div>
+          <div class="space--xs"></div>
+          <div class="text--italic p p--lg">&#8222;{{video.description}}&#8220;</div>
+          <div class="space--sm"></div>
+          <a href="{{site.audio}}/{{video.id}}.mp3" class="js-audio-player btn btn--xs btn--green">Jetzt reinhören</a>
+          <audio id="audio-player-{{video.id}}">
+            <source src="{{site.audio}}/{{video.id}}.mp3" type="audio/mpeg">
+            <source src="{{site.audio}}/{{video.id}}.ogg" type="audio/ogg">
+          </audio>
+          <div class="space--lg"></div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  <div class="space--md"></div>
 </div>
 
 <div class="space--xl"></div>
-</div>
