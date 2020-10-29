@@ -162,3 +162,6 @@
     bottom: $site-nav-height;
   }
 }
+
+// special image ratio for the individual testimonial images
+.img--testimonal:before { padding-top: 80%; }
