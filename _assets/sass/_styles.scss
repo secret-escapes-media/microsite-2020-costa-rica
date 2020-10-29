@@ -142,12 +142,12 @@
 
 
 /* ==========================================================================
-   Testimonal page banner
+   testimonial page banner
    ========================================================================== */
 
 // special page banner to ensure image text stays visible at smaller viewports
 
-.testimonal-banner-content {
+.testimonial-banner-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -164,4 +164,4 @@
 }
 
 // special image ratio for the individual testimonial images
-.img--testimonal:before { padding-top: 80%; }
+.img--testimonial:before { padding-top: 80%; }

@@ -6,7 +6,7 @@ layout: default
 
 <div class="banner">
   <div class="banner__bg" style="background-image: url('{{site.img}}/pages/{{page.id}}/hero-bg.jpg');"></div>
-  <div class="testimonal-banner-content"></div>
+  <div class="testimonial-banner-content"></div>
   <div class="banner__nav">
     {% include nav/site.html %}
   </div>
@@ -30,7 +30,7 @@ layout: default
     {% if video.gallery %}
       <div class="bob {% cycle 'bob--swap', '' %}">
         <div class="bob__img2">
-          <a id="tracking-poi-{{video.id}}" class="js-open-modal bv-shadow img img--testimonal" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg');"></a>
+          <a id="tracking-poi-{{video.id}}" class="js-open-modal bv-shadow img img--testimonial" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg');"></a>
         </div>
         <div class="bob__text2">
           <h2 class="h--md text--light text--green">{{video.credit}}</h2>
