@@ -37,12 +37,14 @@ layout: default
           <div class="text--bold text--upper text--md">{{video.title}}</div>
           <div class="space--xs"></div>
           <div class="text--italic p p--lg">&#8222;{{video.description}}&#8220;</div>
-          <div class="space--sm"></div>
-          <a href="{{site.audio}}/{{video.id}}.mp3" class="js-audio-player btn btn--xs btn--green">Jetzt reinhören</a>
-          <audio id="audio-player-{{video.id}}">
-            <source src="{{site.audio}}/{{video.id}}.mp3" type="audio/mpeg">
-            <source src="{{site.audio}}/{{video.id}}.ogg" type="audio/ogg">
-          </audio>
+          {% unless video.id == 'five' %}
+            <div class="space--sm"></div>
+            <a href="{{site.audio}}/{{video.id}}.mp3" class="js-audio-player btn btn--xs btn--green">Jetzt reinhören</a>
+            <audio id="audio-player-{{video.id}}">
+              <source src="{{site.audio}}/{{video.id}}.mp3" type="audio/mpeg">
+              <source src="{{site.audio}}/{{video.id}}.ogg" type="audio/ogg">
+            </audio>
+          {% endunless %}
           <div class="space--lg"></div>
         </div>
       </div>
