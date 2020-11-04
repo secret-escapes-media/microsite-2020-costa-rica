@@ -13,11 +13,11 @@ layout: default
 </div>
 
 <div class="vpad--xl bg--green-dark">
-  <div class="container text--center">
+  <div class="container ">
     <div class="width width--xl text--white text--justify text--normal p p--xxl bv-mob-left">
       <p>{{page.intro}}</p>
       <div class="space--sm text--center">
-        <a id="tracking-video-overview-intro" class="js-open-modal btn btn--green" data-open-modal="overview-intro">Video ansehen</a>
+        <a id="tracking-video-overview" class="js-open-modal btn btn--green" data-open-modal="overview-intro">Video ansehen</a>
       </div>
     </div>
     <div class="space--lg"></div>
@@ -30,21 +30,24 @@ layout: default
     {% if video.gallery %}
       <div class="bob {% cycle 'bob--swap', '' %}">
         <div class="bob__img2">
-          <a id="tracking-poi-{{video.id}}" class="js-open-modal bv-shadow img img--testimonial" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg');"></a>
+<!-- <a id="tracking-poi-{{video.id}}" class="js-open-modal bv-shadow img img--testimonial" data-open-modal="{{video.id}}" style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg');"></a>-->
+          <a class="bv-shadow img img--testimonial"  style="background-image: url('{{site.img}}/pages/{{page.id}}/{{video.id}}.jpg');"></a>
         </div>
         <div class="bob__text2">
           <h2 class="h--md text--light text--green">{{video.credit}}</h2>
+          <div class="space--xxs"></div>
           <div class="text--bold text--upper text--md">{{video.title}}</div>
-          <div class="space--xs"></div>
+          <div class="space--sm"></div>
           <div class="text--italic p p--lg">&#8222;{{video.description}}&#8220;</div>
-          {% unless video.id == 'five' %}
+
             <div class="space--sm"></div>
+          {% unless video.id == 'five' %}
             <a href="{{site.audio}}/{{video.id}}.mp3" class="js-audio-player btn btn--xs btn--green">Jetzt reinhören</a>
+          {% endunless %}
             <audio id="audio-player-{{video.id}}">
               <source src="{{site.audio}}/{{video.id}}.mp3" type="audio/mpeg">
               <source src="{{site.audio}}/{{video.id}}.ogg" type="audio/ogg">
             </audio>
-          {% endunless %}
           <div class="space--lg"></div>
         </div>
       </div>

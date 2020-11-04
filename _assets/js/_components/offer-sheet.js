@@ -51,7 +51,7 @@ $(offerSections).each(function(){
 
         var htmlCol          = '<div class="col"></div>';
         var htmlOffer        = '<div class="offer depth--sm depth--sm-hover rounded--sm"></div>';
-        var htmlLink         = '<a class="offer__link" href="'+saleURL+'"><span class="btn btn--orange">View Offer</span></a>';
+        var htmlLink         = '<a class="offer__link" href="'+saleURL+'"><span class="btn btn--orange">Zum Angebot</span></a>';
         var htmlImage        = '<div class="img img--16-9" style="background-image: url('+saleImage+')"></div>';
         var htmlCountdown    = '<div class="offer__expires js-offer-expires p--sm" data-expires="'+saleEndDate+'" style="display:none;"></div>';
         var htmlTags         = '<div class="offer__tags"></div>';

@@ -76,12 +76,21 @@ if (getQueryStringByName(modalQueryString)) {
 // closes modal on close icon click
 modalCloseBtn.on('click', function(event) {
   modalClose(event);
+  console.log("hey");
+    //document.getElementById('overview').pause();
+    document.getElementById('overview').pause();
+    document.getElementById('safety').pause();
+    document.getElementById('wellness').pause();
+
 });
 
 // closes modal on background click
 modal.on('click', function(event) {
   if ($(event.target).hasClass('modal__wrap')){
     modalClose(event);
+    document.getElementById('overview').pause();
+    document.getElementById('safety').pause();
+    document.getElementById('wellness').pause();
   }
 });
 
@@ -89,5 +98,8 @@ modal.on('click', function(event) {
 $(document).keyup(function(event) {
    if (event.keyCode == 27) {
      modalClose(event);
+     document.getElementById('overview').pause();
+     document.getElementById('safety').pause();
+     document.getElementById('wellness').pause();
     }
 });

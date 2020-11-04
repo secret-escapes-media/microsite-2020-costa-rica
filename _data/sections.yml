@@ -31,12 +31,12 @@
   group: gallery
   credit: "Melanie Winiger"
   title: Schauspielerin
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!"
+  description: "Coming soon..."
 
 - id: overview-intro
   modal: >
-    <div id="video-overview-intro">
-      <video style="width:100%;" controls>
+    <div id="video-overview">
+      <video id="overview" class="bv-video-stop" style="width:100%;" controls>
         <source src="http://www.channelrent.tv/download/costarica-promis-03.mp4" type="video/mp4">
       </video>
     </div>
@@ -45,8 +45,8 @@
   youtube: true
   modal: >
     <div class="" id="video-safety">
-      <video style="width:100%;"  poster=""  controls >
-        <source src="http://www.channelrent.tv/download/touristiknews-costarica-news1410-neu.mp4" type="video/mp4"></video>
+      <video id="safety" class="bv-video-stop" style="width:100%;"  poster=""  controls >
+        <source src="http://www.channelrent.tv/download/touristiknews-costarica311-finalreport.mp4" type="video/mp4"></video>
     </div>
   gallery: false
 
@@ -54,6 +54,6 @@
   youtube: false
   modal: >
     <div class="bv-iframe-ratio" id="video-wellness">
-      <iframe class=""  src="https://www.youtube.com/embed/fX8VzYADRdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="" id="wellness" src="https://www.youtube.com/embed/fX8VzYADRdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   gallery: false
