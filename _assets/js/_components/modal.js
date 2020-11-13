@@ -76,11 +76,11 @@ if (getQueryStringByName(modalQueryString)) {
 // closes modal on close icon click
 modalCloseBtn.on('click', function(event) {
   modalClose(event);
-  console.log("hey");
+  //console.log("hey");
     //document.getElementById('overview').pause();
     document.getElementById('overview').pause();
     document.getElementById('safety').pause();
-    document.getElementById('wellness').pause();
+		$('#wellness')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
 
 });
 
@@ -90,7 +90,7 @@ modal.on('click', function(event) {
     modalClose(event);
     document.getElementById('overview').pause();
     document.getElementById('safety').pause();
-    document.getElementById('wellness').pause();
+		$('#wellness')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
   }
 });
 
@@ -100,6 +100,6 @@ $(document).keyup(function(event) {
      modalClose(event);
      document.getElementById('overview').pause();
      document.getElementById('safety').pause();
-     document.getElementById('wellness').pause();
+ 		$('#wellness')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
     }
 });

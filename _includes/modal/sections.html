@@ -21,17 +21,11 @@ will also load in normal modals that appear in /data/modals.yml
 
         {% else if section.youtube == 'true'  %}
         <div class="text--white" id="video-{{section.id}}">{{section.modal}}</div>
-        <!-- <div class="bv-iframe-ratio" id="video-wellness">
-          <iframe class=""  src="https://www.youtube.com/embed/fX8VzYADRdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> -->
+
 
       {% else if section.youtube == 'false' %}
       <div class="text--green" id="video-{{section.id}}">{{section.modal}}</div>
-  <!--
-      <div class="" id="video-safety">
-        <video style="width:100%;"  poster=""  controls >
-          <source src="http://www.channelrent.tv/download/touristiknews-costarica-news1410-neu.mp4" type="video/mp4"></video>
-      </div>-->
+
         {% endif %}
       </div>
 

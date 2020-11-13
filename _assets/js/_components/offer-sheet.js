@@ -63,13 +63,13 @@ $(offerSections).each(function(){
         var htmlBottomLeft   = '<div class="offer__bottom-left"><div class="offer__details">From <span class="offer__price">'+salePrice+' €</span> '+salePriceDescription+'</div></div>';
 
         if(saleTags.indexOf("refundable") >= 0){
-          htmlTags = $(htmlTags).append("<div class='offer__tag offer__tag-refundable'>Refundable</div>");
+          htmlTags = $(htmlTags).append("<div class='offer__tag offer__tag-refundable'>Stornierbar</div>");
         }
         if(saleTags.indexOf("customisable") >= 0){
-          htmlTags = $(htmlTags).append("<div class='offer__tag offer__tag-customisable'>Customisable</div>");
+          htmlTags = $(htmlTags).append("<div class='offer__tag offer__tag-customisable'>Konfigurierbar</div>");
         }
         if (saleTags.indexOf("flights") >= 0){
-          htmlTags = $(htmlTags).append("<div class='offer__tag offer__tag-flights'>Flights</div>");
+          htmlTags = $(htmlTags).append("<div class='offer__tag offer__tag-flights'>inkl. Flüge</div>");
         }
 
         if(saleDiscount > 0){

@@ -12,13 +12,6 @@
   title: Schauspieler
   description: "Costa Rica ist mein absolutes Traumreiseziel in den letzten Jahren. Costa Rica bietet mir die Möglichkeit all meine Aktivsportarten in atemberaubend schöner Natur auszuüben und mit Menschen zusammen zu sein, die 'Pura Vida' als Grundeinstellung verinnerlicht haben. Durch meine nachhaltige Surfbrettfirma in Costa Rica kann ich meine Leidenschaft fürs Surfen mit Urlaub und Business kombinieren. Durch strenge Hygienekonzepte und Sicherheitsvorschriften habe ich mich während meiner Reise im September sehr sicher gefühlt"
 
-- id: three
-  gallery: true
-  group: gallery
-  credit: "Ruby O. Fee"
-  title: Schauspielerin
-  description: "Ein gewisses Fernweh begleitet mich schon mein ganzes Leben. Zurzeit ist die Sehnsucht größer denn je. Ich bin in Costa Rica geboren und war nach meiner Geburt nie wieder dort. Es ist ein großer Traum von mir das Land, die Kultur und die Menschen dort endlich besser kennenzulernen."
-
 - id: four
   gallery: true
   group: gallery
@@ -53,7 +46,7 @@
 - id: wellness
   youtube: false
   modal: >
-    <div class="bv-iframe-ratio" id="video-wellness">
+    <div class="bv-iframe-ratio" >
       <iframe class="" id="wellness" src="https://www.youtube.com/embed/fX8VzYADRdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   gallery: false
